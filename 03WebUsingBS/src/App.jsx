@@ -7,6 +7,7 @@ function App() {
   return (
     <>
         <Headerr />
+        
         <Carousel/>
         <div className="d-flex flex-wrap gap-3 justify-content-around mt-3">
         <Card className=""
