@@ -7,7 +7,7 @@ const Headerr = () => {
      
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand 'btn-warning'" href="#"><span className="text-warning">EXP</span>LOR</a>
+          <a className="navbar-brand 'btn-warning'" href="#">Corporate</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -21,6 +21,22 @@ const Headerr = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#Services">Services</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Works">Works</a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="#Team">Team</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Testimonials">Testimonials</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#price">price</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Blog">Blog</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#Contact">Contact</a>

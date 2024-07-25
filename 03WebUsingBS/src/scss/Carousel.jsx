@@ -2,33 +2,36 @@ import React from 'react'
 
 const Carousel = () => {
   return (
-    <div className='flex-wrap gap-3'>
+    <div className='flex-wrap hero-block mt-0'>
         <div id="carouselExampleCaptions" className="carousel slide">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div className="carousel-inner">
+  <div className="carousel-inner">  
     <div className="carousel-item active">
-      <img  src=""  className="d-block w-100"/>
+      <img  src="/images/img-hero1.jpg"  className="d-block w-100"/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>MUMBAI DREAM CITY </h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>It's Corporate World</h5>
+        <p>If You want to learn some and Want some Exprince then join the corporate job</p>
+        <div className='btn btn-danger btn-lg'><a href="#Learn More"></a>Learn More</div>
       </div>
     </div>
     <div className="carousel-item">
-      <img  src="https://cdn.pixabay.com/photo/2018/02/25/21/34/temple-3181803_960_720.jpg" className="d-block w-100" alt="..."/>
+      <img  src="/images/img-hero2.jpg"  className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>RAJASTHAN TRADITINAL</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>It's Corporate World</h5>
+        <p>If You want to learn some and Want some Exprince then join the corporate job</p>
+        <div className='btn btn-danger btn-lg'><a href="#Learn More"></a>Learn More</div>
       </div>
     </div>
     <div className="carousel-item">
-      <img   src="https://plus.unsplash.com/premium_photo-1661919589683-f11880119fb7?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aW5kaWElMjBnYXRlfGVufDB8fDB8fHww" className="d-block w-100" alt="..."/>
+      <img   src="/images/img-hero3.jpg"  className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>DELHI CAPITAL OF INDIA </h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>It's Corporate World</h5>
+        <p>If You want to learn some and Want some Exprince then join the corporate job</p>
+        <div className='btn btn-danger btn-lg'><a href="#Learn More"></a>Learn-More</div>
       </div>
     </div>
   </div>
@@ -45,4 +48,4 @@ const Carousel = () => {
   )
 }
 
-export default Carousel
+export default Carousel;

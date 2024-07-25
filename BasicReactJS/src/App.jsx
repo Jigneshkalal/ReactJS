@@ -1,5 +1,6 @@
 import { createContext } from 'react'
 import ContextHookEx from './ContextHookEx';
+import UseReduce from './UseReduce';
 
 const data= createContext();
 const data1= createContext();
@@ -8,11 +9,12 @@ function App() {
   const gender="male"
   return (
     <>
-       <data.Provider value={name}>
+      <data.Provider value={name}>
        <data1.Provider value={gender}>
         <ContextHookEx/>
        </data1.Provider>
-       </data.Provider>
+       </data.Provider> 
+       
     </>
   )
 }
